@@ -1,8 +1,8 @@
 # Part 1 imports
-from part_one import driver
+# from part_one import driver
 
 # Part 2 imports
-# from part_two import driver
+from part_two import driver
 
 if __name__ == "__main__":
     user_input = ""
@@ -12,5 +12,5 @@ if __name__ == "__main__":
     if user_input == "r":
         driver()
     else: 
-        from sequence_tests import tests
+        from sequence_test import tests
         tests()
